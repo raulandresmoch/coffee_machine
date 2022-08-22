@@ -66,6 +66,6 @@ while machine_working == True:
         milk -= MENU[user_drink]['ingredients']['milk']
         coffee -= MENU[user_drink]['ingredients']['coffee']
     else:
-        print(f"Not enough money paid, here is your {money_paid()}")
+        print(f"Not enough money paid, here is your {money_paid(quarters, dimes, nickels, cents)}")
     # TODO 5: Make Coffee
 
